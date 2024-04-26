@@ -1,0 +1,123 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.headerMainContainer {
+    background-image: url(../img/BackgroundHeader.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+/* .transparent {
+    background-color: #000;
+    opacity: 0.6;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+} */
+
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    margin-top: 30px;
+  
+}
+
+
+/* .shadowGradient {
+    background-color: azure;
+    width: 500px;
+    height: 500px;
+} */
+
+
+.headerContainer img {
+    width: 200px;
+}
+
+.language {
+    background-color: rgba(0, 0, 0, 0.678);
+    border: 1px solid gray;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+
+}
+
+.signContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btnSign {
+    background-color: #E50914;
+    padding: 7px 15px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #E50914;
+    cursor: pointer;
+
+}
+
+.unlimitedContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 150px;
+    gap: 30px;
+
+
+}
+
+.unlimitedContainer p {
+    font-size: 20px;
+}
+
+.getStartedContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 130px;
+
+}
+
+.getStartedContainer button {
+    background-color: #E50914;
+    padding: 15px 18px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #E50914;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.getStartedContainer input {
+    padding: 15px 70px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.678);
+    border: 1px solid gray;
+    color: white;
+}
